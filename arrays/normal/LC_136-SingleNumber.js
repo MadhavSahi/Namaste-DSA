@@ -1,3 +1,5 @@
+//excellent use of XOR.
+// learnt about XOR.
 var singleNumber = function (nums) {
 
     let n = nums.length;
