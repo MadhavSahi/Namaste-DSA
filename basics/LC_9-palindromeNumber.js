@@ -15,12 +15,23 @@ function isPalindrome(num) {
     return false;
   }
 }
+function isPalindromeString(num){
+   let str=num.toString();
+   let reverse=str.split("").reverse().join("");
+   if(str===reverse){
+      return true;
+   }
+   else{
+      return false;
+   }
+   
+}
 console.log(
-  isPalindrome(141141141141),
+  isPalindromeString(141141141141),
   " ",
-  isPalindrome(123321),
+  isPalindromeString(1233212),
   " ",
-  isPalindrome(1112),
+  isPalindromeString(1112),
   " ",
-  isPalindrome(101)
+  isPalindromeString(101)
 );
