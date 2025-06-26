@@ -8,7 +8,7 @@ var isPalindrome = function (s) {
         }
         if((s[right].toLowerCase()<"a" && s[right].toLowerCase()>"z") || (s[right].toLowerCase()<"0" && s[right].toLowerCase()>"9")){
             right--;
-            continue;
+            // continue;
         }
         if(s[left]!==s[right]){
             return false;
