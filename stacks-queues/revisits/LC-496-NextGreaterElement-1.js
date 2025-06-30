@@ -17,6 +17,6 @@ var nextGreaterElement = function (nums1, nums2) {
         stack.push(num);
     }
 
-    // Build result for nums1
+    // Build result for nums1 and returns new array.
     return nums1.map(num => map.get(num));
 };
